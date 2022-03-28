@@ -8,3 +8,30 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
+
+body {
+    background: rgb(226, 226, 226);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width: 90px;
+    background: #ffffff;
+    overflow: hidden;
+    transition: 1s;
+
+}
+
+nav:hover {
+    width: 280px;
+    transition: 1s;
+}
+
+.logo img{
+    width: 46px;
+    height: 46px;
+}
