@@ -58,3 +58,12 @@ a{
   display: table;
   padding: 10px;
 }
+
+nav .fas {
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
