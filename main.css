@@ -67,3 +67,9 @@ nav .fas {
   font-size: 20px;
   text-align: center;
 }
+
+.nav-item {
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
