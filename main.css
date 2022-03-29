@@ -116,7 +116,7 @@ a:hover i{
 }
 
 
-.manin .users {
+.main .users {
   display: flex;
   width: 100%;
 }
@@ -145,4 +145,14 @@ a:hover i{
   font-size: 12px;
   margin-bottom: 15px;
   text-transform: uppercase;
+}
+
+.users table {
+  margin: auto;
+}
+
+.users .per span {
+  padding: 5px;
+  border-radius: 10px;
+  background: rgb(223, 223, 223);
 }
