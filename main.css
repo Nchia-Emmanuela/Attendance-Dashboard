@@ -161,3 +161,13 @@ a:hover i{
   font-size: 14px;
   padding-right: 15px;
 }
+
+.users .card button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid #4AF489;
+}
