@@ -169,5 +169,11 @@ a:hover i{
   cursor: pointer;
   border-radius: 10px;
   background: transparent;
-  border: 1px solid #4AF489;
+  border: 1px solid #4AD489;
+}
+
+.users .card button:hover {
+  background: #4AD489;
+  color: #fff;
+  transition: 0.5s;
 }
