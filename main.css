@@ -228,3 +228,10 @@ table thead tr {
   color: #4AD489;
 }
   
+.table button {
+  padding: 6px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #4AD489;
+}
