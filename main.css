@@ -235,3 +235,8 @@ table thead tr {
   background: transparent;
   border: 1px solid #4AD489;
 }
+
+.table button:hover {
+  background: #4AD489;
+  color: #fff;
+}
