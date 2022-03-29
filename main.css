@@ -41,12 +41,14 @@ nav:hover {
 .logo img {
   width: 56px;
   height: 56px;
+  border-radius: 50%;
 }
 
 .logo span {
     font-weight: bold;
     padding-left: 15px;
     font-size: 18px;
+    margin-top: 10px;
     text-decoration: uppercase;
 }
 
@@ -80,5 +82,14 @@ a:hover {
 
 a:hover i{
   color: #34AF6D;
-  
+  transition: 0.5s;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+}
+
+.container {
+  display: flex;
 }
