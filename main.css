@@ -136,3 +136,13 @@ a:hover i{
   height: 70px;
   border-radius: 50%;
 }
+
+.users .card h4 {
+  text-transform: uppercase;
+}
+
+.users .card p {
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
