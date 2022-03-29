@@ -156,3 +156,8 @@ a:hover i{
   border-radius: 10px;
   background: rgb(223, 223, 223);
 }
+
+.users td {
+  font-size: 14px;
+  padding-right: 15px;
+}
