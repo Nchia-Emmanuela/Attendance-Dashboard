@@ -73,3 +73,12 @@ nav .fas {
   top: 12px;
   margin-left: 10px;
 }
+
+a:hover {
+  background-color: #eee;
+}
+
+a:hover i{
+  color: #34AF6D;
+  
+}
