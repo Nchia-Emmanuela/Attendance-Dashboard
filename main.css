@@ -19,8 +19,8 @@ nav {
   bottom: 0;
   height: 100vh;
   left: 0;
-  /* width: 90px; */
-  width: 280px;
+  width: 90px;
+  /* width: 280px; */
   background: #ffffff;
   overflow: hidden;
   transition: 1s;
@@ -39,8 +39,8 @@ nav:hover {
 }
 
 .logo img {
-  width: 56px;
-  height: 56px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
 }
 
@@ -113,4 +113,18 @@ a:hover i{
   margin: 10px 30px;
   color: rgb(110, 109, 109);
   cursor: pointer;
+}
+
+
+.manin .users {
+  display: flex;
+  width: 100%;
+}
+
+.users .card {
+  width: 25%;
+  margin: 10px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
 }
