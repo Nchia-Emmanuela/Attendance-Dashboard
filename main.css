@@ -219,13 +219,17 @@ table thead tr {
   border-bottom: 1px solid #ddd;
 }
 
-.table tbody tr:nth-of-type(even) {
+.table tbody tr:nth-of-type(odd) {
   background: #f3f3f3;
 }
 
 .table tbody tr.active {
   font-weight: bold;
   color: #4AD489;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #4AD489;
 }
   
 .table button {
@@ -239,4 +243,5 @@ table thead tr {
 .table button:hover {
   background: #4AD489;
   color: #fff;
+  transition: 0.5s;
 }
