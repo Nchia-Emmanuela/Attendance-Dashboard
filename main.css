@@ -202,3 +202,10 @@ a:hover i{
   overflow: hidden;
   border-radius: 5px 5px 0 0;
 }
+
+table thead tr {
+  color: #fff;
+  background: #34AF6D;
+  text-align: left;
+  font-weight: bold;
+}
