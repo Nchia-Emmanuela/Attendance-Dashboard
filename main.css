@@ -245,3 +245,19 @@ table thead tr {
   color: #fff;
   transition: 0.5s;
 }
+
+/* styling for responsiveness */
+
+@media only screen and (max-width: 755px) {
+  .users .card {
+    width: 150px;
+  }
+  .main .users {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .table tr {
+    width: 12px;
+  }
+}
