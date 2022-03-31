@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -135,6 +134,7 @@ a:hover i{
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .users .card h4 {
