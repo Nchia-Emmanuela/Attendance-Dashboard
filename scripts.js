@@ -1,11 +1,14 @@
-'use strict'
+"use strict";
 
 const main = document.querySelector(".main");
-const mainSection = document.querySelector(".fas fa-comment");
+const mainSection = document.querySelector(".fa-comment");
 
-fasFaComment.addEventListener("click", () => {
-  const msg = document.querySelector(".msg").classList.add(".main");
-  main.classList.add(".hide");
+mainSection.addEventListener("click", () => {
+  main.classList.add("hide");
+  const msg = document.querySelector(".msg");
+  msg.classList.add("main");
+  msg.style.display = "block";
+
   console.log(msg);
 });
-console.log(msg)
+
